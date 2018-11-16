@@ -1,1 +1,1 @@
-$('#selectable').selectable();
+$('#selectable-views').selectable();
