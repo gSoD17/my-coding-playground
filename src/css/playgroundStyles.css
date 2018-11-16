@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-row-gap: 15px;
   background-color: #ffffff;
 }
 
@@ -42,6 +42,15 @@
 
 .button-coding-view:not(:last-child){
   border-right: none;
+}
+
+.coding-space-html{
+  border: 1px solid black;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  min-height: 800px;
 }
 
 #logo-style-start{
