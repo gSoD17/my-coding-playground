@@ -13,7 +13,6 @@
   grid-column-start: 1;
   grid-column-end: 5;
   border-bottom: 2px solid #007ea7;
-  padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,10 +35,15 @@
   cursor: pointer;
 }
 
-.button-coding-view:hover{
+.button-highlight{
   background-color: #007ea7;
   color: #ffffff;
 }
+
+/* .button-coding-view:hover{
+  background-color: #007ea7;
+  color: #ffffff;
+} */
 
 .button-coding-view:not(:last-child){
   border-right: none;
