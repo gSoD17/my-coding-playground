@@ -2,12 +2,16 @@ textarea{
   resize: none;
 }
 
+iframe{
+  border: none;
+}
+
 .main-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 800px;
+  grid-row-gap: 10px;
   grid-column-gap: 10px;
-  grid-row-gap: 15px;
   background-color: #ffffff;
 }
 
@@ -60,6 +64,11 @@ textarea{
   grid-column-end: 5;
 }
 
+.panel{
+  height: 100%;
+  width: 24%;
+}
+
 #logo-style-start{
   color: #007ea7;
 }
@@ -75,19 +84,4 @@ textarea{
 #selectable-views .ui-selected{
   background: #007ea7;
   color: #ffffff;
-}
-
-#coding-space-html{
-  width: 25%;
-  height: 100%;
-}
-
-#coding-space-css{
-  width: 25%;
-  height: 100%;
-}
-
-#coding-space-javascript{
-  width: 25%;
-  height: 100%;
 }
