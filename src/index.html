@@ -23,21 +23,21 @@
                 <nav>
                     <ul>
                         <li id="selectable-views">
-                            <button class="button-coding-view">HTML</button>
-                            <button class="button-coding-view">CSS</button>
-                            <button class="button-coding-view">JavaScript</button>
-                            <button class="button-coding-view">Output</button>
+                            <button class="button-coding-view" id="html">HTML</button>
+                            <button class="button-coding-view" id="css">CSS</button>
+                            <button class="button-coding-view" id="javascript">JavaScript</button>
+                            <button class="button-coding-view" id="output">Output</button>
                         </li>
                     </ul>
                 </nav>
             </div>
             
             <div class="coding-space">
-                <textarea class="panel" id="coding-space-html"></textarea>
-                <!-- <textarea class="panel" id="coding-space-css"></textarea>
-                <textarea class="panel" id="coding-space-javascript"></textarea> -->
+                <textarea class="panel hidden" id="htmlPanel">Hello World!</textarea>
+                <textarea class="panel hidden" id="cssPanel">Hello World!</textarea>
+                <textarea class="panel hidden" id="javascriptPanel">alert('Hellow World!');</textarea>
 
-                <iframe class="panel" id="coding-space-output"></iframe>
+                <iframe class="panel hidden" id="outputPanel"></iframe>
             </div>
 
         </div>

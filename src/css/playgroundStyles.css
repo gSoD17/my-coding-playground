@@ -47,10 +47,10 @@ iframe{
   border-right: none;
 }
 
-.button-highlight-effect{
+/* .button-highlight-effect{
   background-color: #007ea7;
   color: #ffffff;
-}
+} */
 
 .button-active{
   background-color: #007ea7;
@@ -67,6 +67,10 @@ iframe{
 .panel{
   height: 100%;
   width: 24%;
+}
+
+.hidden{
+  display: none;
 }
 
 #logo-style-start{
