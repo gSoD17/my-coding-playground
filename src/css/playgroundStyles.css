@@ -65,6 +65,7 @@ iframe{
 }
 
 .panel{
+  background-color: lightgray;
   height: 100%;
   width: 24%;
 }

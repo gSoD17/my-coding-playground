@@ -1,12 +1,12 @@
-// $('.button-coding-view').hover(function() {
+function updateOutput() {
 
-//     $(this).addClass('button-highlight-effect');
+    $('iframe').contents().find('html').html('<html><head><style type="text/css">' + $('#cssPanel').val() + '</style></head><body>' + $('#htmlPanel').val() + '</body></html>');
 
-// }, function() {
+    eval($('#javascriptPanel').val());
 
-//     $(this).removeClass('button-highlight-effect');
+}
 
-// });
+updateOutput();
 
 $('.button-coding-view').click(function() {
 
@@ -22,6 +22,6 @@ $('.button-coding-view').click(function() {
 
 $('textarea').on('change keyup paste', function() {
 
-    $('iframe').contents().find('html').html($('#htmlPanel').val());
+    updateOutput();
 
 })
