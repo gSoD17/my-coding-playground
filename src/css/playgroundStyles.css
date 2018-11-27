@@ -68,6 +68,7 @@ iframe{
   background-color: lightgray;
   height: 100%;
   width: 24.7%;
+  border: none;
 }
 
 .hidden{

@@ -6,8 +6,6 @@ function updateOutput() {
 
 }
 
-updateOutput();
-
 $('.button-coding-view').click(function() {
 
     let panelId = $(this).attr('id') + 'Panel';
@@ -24,4 +22,4 @@ $('textarea').on('change keyup paste', function() {
 
     updateOutput();
 
-})
+});
